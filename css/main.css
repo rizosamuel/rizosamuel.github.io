@@ -87,8 +87,8 @@
   color: #fff;
   background: #2CA8FF; }
 
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-#00FFFF,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-#00FFFF {
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
   color: #fff;
   background: #18ce0f; }
 
@@ -222,7 +222,7 @@
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-orange ~ .bootstrap-switch-default {
   background-color: #FFB236; }
 
-.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-#00FFFF ~ .bootstrap-switch-default {
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-green ~ .bootstrap-switch-default {
   background-color: #18ce0f; }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-brown ~ .bootstrap-switch-default {
@@ -235,7 +235,7 @@
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-brown,
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-blue,
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-orange,
-.bootstrap-switch.bootstrap-switch-off .bootstrap-switch-#00FFFF {
+.bootstrap-switch.bootstrap-switch-off .bootstrap-switch-green {
   background-color: #E3E3E3; }
 
 .bootstrap-switch-off .bootstrap-switch-handle-on {
@@ -3453,7 +3453,7 @@ Created using IcoMoon - icomoon.io
     background-color: #FFB236; }
   .card[data-background-color="blue"] {
     background-color: #2CA8FF; }
-  .card[data-background-color="#00FFFF"] {
+  .card[data-background-color="green"] {
     background-color: #18ce0f; }
 
 .card-signup {
