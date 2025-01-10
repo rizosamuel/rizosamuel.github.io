@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository! This project showcases my professional journey, skills, and projects in an elegant and responsive design. It serves as an online resume and portfolio to highlight my expertise in iOS development and software engineering.
 
-🌐 Live Demo: https://rijosamuel.github.io/
+🌐 Live Demo: https://rizosamuel.github.io/
 📖 About
 
 This portfolio website is built using a clean, modern template, customized to reflect my career highlights and personal branding. It includes sections for:
