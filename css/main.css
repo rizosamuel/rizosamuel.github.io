@@ -272,7 +272,7 @@ footer a:not(.nav-link) {
 
 .social-icons {
   position: relative;
-  padding-left: 20px; /* Space for the oblique line */
+  padding-left: 20px; /* Space for the vertical line */
 }
 
 .social-icons::before {
@@ -282,6 +282,5 @@ footer a:not(.nav-link) {
   left: 0;
   height: 100%; /* Match the height of the container */
   width: 4px; /* Thickness of the line */
-  background: linear-gradient(to bottom, #3498db, #2ecc71); /* Gradient for the line */
-  transform: skew(-20deg); /* Makes the line oblique */
+  background: linear-gradient(to bottom, #3498db, #2ecc71); /* Vertical gradient for the line */
 }
