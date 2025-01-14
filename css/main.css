@@ -278,9 +278,11 @@ footer a:not(.nav-link) {
 .social-icons::before {
   content: '';
   position: absolute;
-  top: 0;
+  top: 50%; /* Center the line vertically */
   left: 0;
-  height: 100%; /* Match the height of the container */
+  transform: translateY(-50%); /* Adjust position to keep it centered */
+  height: 50px; /* Reduced height for the line */
   width: 4px; /* Thickness of the line */
-  background: linear-gradient(to bottom, #3498db, #2ecc71); /* Vertical gradient for the line */
+  background: linear-gradient(to bottom, #3498db, #2ecc71); /* Gradient for the line */
+  border-radius: 10px; /* Make the line rounded */
 }
