@@ -269,3 +269,19 @@ footer a:not(.nav-link) {
 .entry-title a {
   text-decoration: none;
 }
+
+.social-icons {
+  position: relative;
+  padding-left: 20px; /* Space for the oblique line */
+}
+
+.social-icons::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%; /* Match the height of the container */
+  width: 4px; /* Thickness of the line */
+  background: linear-gradient(to bottom, #3498db, #2ecc71); /* Gradient for the line */
+  transform: skew(-20deg); /* Makes the line oblique */
+}
