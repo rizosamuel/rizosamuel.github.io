@@ -281,8 +281,6 @@ footer a:not(.nav-link) {
   padding-bottom: 5px;
 }
 
-.rounded-form {
-  border-radius: 12px; /* Adjust the value for more or less rounding */
-  border: 1px solid #ddd; /* Optional: Add a subtle border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a soft shadow for a modern look */
+.rounded-box {
+  border-radius: 12px;
 }
