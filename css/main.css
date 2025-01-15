@@ -90,6 +90,8 @@ html {
   background-image: url("../images/wave-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
 }
 
 img.avatar {
