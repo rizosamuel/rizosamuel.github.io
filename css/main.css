@@ -230,7 +230,7 @@ footer a:not(.nav-link) {
 
 .marker {
   position: relative;
-  display: block;
+  display: inline-block;
   width: auto;
   overflow: visible;
 }
